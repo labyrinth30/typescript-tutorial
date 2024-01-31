@@ -31,11 +31,11 @@ type CompanyOrPet = PersonType & (CompanyType | PetType);
 
 const companyOrPet: CompanyOrPet = {
     // PersonType
-    name: '코드팩토리',
+    name: '이윤하',
     age: 32,
 
     // CompanyType
-    company: '주식회사 코드팩토리',
+    company: '주식회사 이윤하',
     companyRegistrationNumber: 'xxxyyyzzz',
 
     // PetType

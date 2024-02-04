@@ -13,6 +13,7 @@ const yuJin: Idol = {
     groupName: '아이브',
 }
 
+// 데이터베이스 모델을 업데이트 할 때 주로 사용
 function updateIdol(original: Idol, updates: Partial<Idol>): Idol{
     return {
         ...original,
@@ -23,5 +24,4 @@ function updateIdol(original: Idol, updates: Partial<Idol>): Idol{
 console.log(updateIdol(yuJin, {
     age: 27,
     name: '이윤하',
-    groupName: '주식회사 이윤하',
 }));
